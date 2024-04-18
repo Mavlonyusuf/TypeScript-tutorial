@@ -10,4 +10,11 @@ let num = 20; // let num:number = 20
 
 // null yoki undefined typelarini oldindan aytib o'tmasak uni any typega o'tkazib qo'yadi
 
-let value = null;
+let value = null; // let value:any = null
+// any typega tegishli bo'lgan o'zgaruvchini istalgan typega tegishli bo'lgan qiymatga o'zgartirish mumkin
+// bo'lib, bundan foydalanish tavsiya qilinmaydi. Chunki, bu holatda typeScriptni manosi yo'qolib qoladi
+
+// Agar biz biror obyekt e'lon qilmoqchi bo'lsak ushbu ko'rinishda yozish tavsiya qilinadi
+
+let obj: { name: string; age: number } = { name: "Ahmad", age: 20 };
+console.log(obj.name); // Ahmad

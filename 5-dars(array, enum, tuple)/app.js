@@ -34,11 +34,16 @@
 //   Ru,
 // }
 // console.log(Lang.Uz, Lang.Eng, Lang.Ru); // 0, 5, 6
-var Lang;
-(function (Lang) {
-    Lang["Uz"] = "Uzbek";
-    Lang["Eng"] = "English";
-    Lang["Ru"] = "Russian";
-})(Lang || (Lang = {}));
-console.log(Lang.Uz, Lang.Eng, Lang.Ru); // Uzbek, English, Russian
+// enum Lang {
+//   Uz = "Uzbek",
+//   Eng = "English",
+//   Ru = "Russian",
+// }
+// console.log(Lang.Uz, Lang.Eng, Lang.Ru); // Uzbek, English, Russian
+// const enum Lang {
+//   Uz = "Uzbek",
+//   Eng = "English",
+//   Ru = "Russian",
+// }
+// console.log(Lang.Uz, Lang.Eng, Lang.Ru);
 //# sourceMappingURL=app.js.map

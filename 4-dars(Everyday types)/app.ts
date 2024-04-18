@@ -50,20 +50,20 @@
 //  uni kiritish majburiy bo’lib qoldi. Agar ularni kiritmasak dasturimiz buziladi.
 // Ushbu holatlarni oldini olish uchun, kiritish shart bo’lmagan ba’zi bir qiymatlarni
 // ixtiyoriy qilib qo’yishimiz mumkin. Misol un:
-type OBJ = {
-  name: string;
-  age: number;
-  email?: string;
-};
-let newObj: OBJ = { name: "Mahmud", age: 20, email: "mahmud@gmail.com" };
-newObj = { name: "Muhammad", age: 20 };
+// type OBJ = {
+//   name: string;
+//   age: number;
+//   email?: string;
+// };
+// let newObj: OBJ = { name: "Mahmud", age: 20, email: "mahmud@gmail.com" };
+// newObj = { name: "Muhammad", age: 20 };
 
-function fullInfo(firstName: string, lastName: string, age?: number) {
-  if (age) {
-    return `${firstName} ${lastName} is ${age} years old`;
-  } else {
-    return `${firstName} ${lastName}`;
-  }
-}
-console.log(fullInfo("Mavlon", "Yusuf", 22)); // Mavlon Yusuf is 22 years old
-console.log(fullInfo("Mavlon", "Yusuf")); // Mavlon Yusuf
+// function fullInfo(firstName: string, lastName: string, age?: number) {
+//   if (age) {
+//     return `${firstName} ${lastName} is ${age} years old`;
+//   } else {
+//     return `${firstName} ${lastName}`;
+//   }
+// }
+// console.log(fullInfo("Mavlon", "Yusuf", 22)); // Mavlon Yusuf is 22 years old
+// console.log(fullInfo("Mavlon", "Yusuf")); // Mavlon Yusuf
